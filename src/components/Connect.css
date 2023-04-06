@@ -110,3 +110,9 @@
 
     color: #5A5A5A;
 }
+
+.bg_connect {
+    background-image: url(../../public/tlab/bg_connect.png);
+    background-repeat: no-repeat;
+    padding-top: 107px;
+}

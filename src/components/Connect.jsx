@@ -87,20 +87,24 @@ const Connect = () => {
     ]
     return ( 
         <Fragment>
-            <div className="connect_head_flex"> 
-                <p className="header-section head_width">Connect &amp; Collaborate</p>
-                <ConnectDesc />
-            </div>
-            <div className="connect_testimoni_flex">
-                {testimonials.map(t => (
-                    <ConnectCard 
-                        name={ t.name }
-                        role={ t.role }
-                        message={ t.message }
-                        bgcolor={ t.bgcolor }
-                        bgtestimonial={ t.bgtestimonial }
-                    />
-                ))}
+            <div className="bg_connect">
+                <div className="container">
+                    <div className="connect_head_flex"> 
+                        <p className="header-section head_width">Connect &amp; Collaborate</p>
+                        <ConnectDesc />
+                    </div>
+                    <div className="connect_testimoni_flex">
+                        {testimonials.map(t => (
+                            <ConnectCard 
+                                name={ t.name }
+                                role={ t.role }
+                                message={ t.message }
+                                bgcolor={ t.bgcolor }
+                                bgtestimonial={ t.bgtestimonial }
+                            />
+                        ))}
+                    </div>
+                </div>
             </div>
         </Fragment>
     );

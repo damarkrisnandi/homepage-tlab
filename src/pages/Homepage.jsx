@@ -14,7 +14,11 @@ const Homepage = () => {
                 <Header/>
                 <Banner/>
                 <Projects/>
+            </div>
+
                 <Connect/>
+                
+            <div className="container">
                 <Sponsors/>
             </div>
             <Footer/>
