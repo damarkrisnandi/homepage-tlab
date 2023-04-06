@@ -1,0 +1,112 @@
+@import url(../index.css);
+
+.connect_container {
+    background-image: url(../../public/tlab/bg_connect.png);
+    background-repeat: no-repeat;
+    
+}
+
+.connect_head_flex {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.connect_testimoni_flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.connect_testimoni_container {
+    background-color: #5449D6;
+    width:32%;
+    border-radius: 8px;
+    height: 568.5px;
+    margin-bottom: 79.25px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.head_width {
+    margin-right: 200px;
+}
+
+.connect_desc_container {
+    width: 687px;
+    margin-bottom: 80px; 
+}
+
+.connect_desc_text {
+    width: 607px;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+}
+
+.connect_desc_link {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 180.5%;
+    /* identical to box height, or 29px */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+
+    /* color-3rd */
+
+    color: #5449D6;  
+}
+
+.connect_partner_container {
+    background-color: white;
+    height: 60%;
+    width: 70%;
+    border-radius: 0px 8px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.connect_testimoni_text {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: white;
+    margin-left: 23.94px;
+    margin-top: 32.7px;
+    margin-right: 51.86px;
+}
+
+.connect_partner_name {
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /* identical to box height, or 29px */
+
+    letter-spacing: 0.005em;
+    margin-bottom: 0px;
+}
+
+.connect_partner_role {
+    /* Small */
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    /* or 25px */
+
+    letter-spacing: 0.005em;
+
+    /* pastel/black/700 */
+
+    color: #5A5A5A;
+}

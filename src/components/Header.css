@@ -1,0 +1,42 @@
+@import url('../index.css');
+
+#brand_logo {
+    width: 140px;
+    height: 40px;
+}
+
+a {
+    color: #5A5A5A;;
+    font-family: 'Nunito Sans';
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.header_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 94px;
+}
+
+.menubar {
+    margin-left: 64px;
+    margin-right: 200px;
+}
+
+.menu_items {
+    margin-right: 40px;
+}
+
+.button_header {
+    background-color: #00DE9C;
+    padding: 12px 24px;
+    color: white;
+    border-radius: 24px;
+    border-width: 0px;
+    font-family: 'Quicksand', sans-serif;
+}
